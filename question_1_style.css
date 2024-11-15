@@ -1,0 +1,74 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f5;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    color: black;
+    background-image: url(Maroon_Bells_\(11553\)a.jpg);
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: auto;
+}
+
+.row {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.row2 {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    background-color: #333;
+}
+
+.footer a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column
+    }
+}
